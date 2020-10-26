@@ -1,0 +1,33 @@
+type: UnitType
+name: orcus
+speed: 1.5
+accel: 0.06
+drag: 0.017
+hitSize: 15
+maxVelocity: 2
+flying: true
+rotateShooting: false
+health: 650
+range: 50
+engineColor: 84f491
+buildSpeed: 1
+mineTier: 3
+engineOffset: 10.5
+weapons: 
+[{
+name: heal-weapon-mount
+reload: 25
+x: 8
+y: -6
+rotate: true
+bullet: healBulletBig
+}]
+research: {
+    parent: rovone
+    requirements:
+    [
+        {item: lead, amount: 7500},
+        {item: silicon, amount: 6000}
+		{item: plastanium, amount: 2000}
+    ]
+}

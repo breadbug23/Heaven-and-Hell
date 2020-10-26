@@ -1,0 +1,35 @@
+type: GenericSmelter
+size: 3
+name: Amber cristalizer
+itemCapacity: 50
+consumes: 
+	{
+	
+power: 3
+	
+items: 
+		{
+		
+items: 
+			[
+			surge-alloy/5
+			thorium/10
+			
+]
+		}
+	} 
+
+outputItem: amber/2
+
+requirements: 
+	[
+	thorium/80
+	surge-alloy/20
+	plastanium/35
+
+	
+]
+
+category: crafting
+
+research: alloy-smelter

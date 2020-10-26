@@ -1,0 +1,15 @@
+name: Bridge plastanium conveyor
+type: StackConveyor
+requirements: 
+ [
+graphite/1
+silicon/1
+plastanium/2
+]
+health: 85
+speed: 0.06666
+itemCapacity: 10
+research: plastanium-conveyor
+category: distribution
+requiresWater: true
+placeableLiquid: true

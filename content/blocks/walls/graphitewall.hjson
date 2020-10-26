@@ -1,0 +1,13 @@
+type: Wall
+name: Graphite wall
+
+health: 500
+size: 1
+requirements: [
+  graphite/6
+]
+
+category: defense
+
+research: door-large
+placeableLiquid: true

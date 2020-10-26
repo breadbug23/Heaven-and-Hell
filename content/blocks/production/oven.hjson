@@ -1,0 +1,41 @@
+type: GenericSmelter
+size: 3
+name: Oven
+itemCapacity: 28
+consumes: 
+	{
+	
+power: 1.5
+	
+items: 
+		{
+		
+items: 
+			[
+			
+sand/4
+			lead/4
+			pyratite/1
+			
+]
+		}
+	} 
+
+outputItem: metaglass/6
+
+requirements: 
+	[
+	
+metaglass/80
+
+	titanium/120
+	silicon/60
+	
+plastanium/35
+
+	
+]
+
+category: crafting
+
+research: kiln

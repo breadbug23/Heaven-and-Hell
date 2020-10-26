@@ -1,0 +1,22 @@
+type: UnitType
+name: Rovone
+speed: 1.5
+maxVelocity: 2
+flying: true
+
+health: 450
+range: 50
+engineColor: 84f491
+buildSpeed: 0.75
+engineOffset: 5.5
+
+update: true
+
+research: {
+    parent: ose
+    requirements:
+    [
+        {item: lead, amount: 5000},
+        {item: silicon, amount: 3500}
+    ]
+}

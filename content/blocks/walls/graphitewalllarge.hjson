@@ -1,0 +1,14 @@
+type: Wall
+name: Large Graphite wall
+
+health: 2000
+
+size: 2
+requirements: [
+  graphite/24
+]
+
+category: defense
+
+research: graphitewall
+placeableLiquid: true

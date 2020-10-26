@@ -1,0 +1,19 @@
+type: UnitType
+name: ose
+speed: 1
+maxVelocity: 2
+flying: true
+
+health: 25
+
+engineColor: 84f491
+engineOffset: 5.5
+
+research: {
+    parent: flare
+    requirements:
+    [
+        {item: lead, amount: 2500},
+        {item: silicon, amount: 1500}
+    ]
+}

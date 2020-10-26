@@ -1,0 +1,54 @@
+{
+	
+name: Sinfull Reconstructor
+type: Reconstructor
+
+size: 7
+consumes: {
+
+power: 13
+items: {
+
+items: [
+
+silicon/800
+titanium/800
+plastanium/140
+]
+}
+liquid: 
+{
+
+liquid: cryofluid
+
+amount: 1}
+
+}
+
+requirements:
+[
+thorium/650
+
+plastanium/400
+phase-fabric/550
+titanium/2400
+silicon/1000
+
+lead/2000
+
+]
+
+
+constructTime: 1750
+
+upgrades: [
+
+[orcus, superbia]
+
+]
+
+category: units
+
+research: abysal-reconstructor-factory
+
+}

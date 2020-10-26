@@ -1,0 +1,47 @@
+name: Terrify air factory
+type: UnitFactory
+
+size: 3
+
+consumes:
+ {
+  power: 2
+
+}
+
+plans: 
+[
+  
+{
+
+    unit: ose
+
+    requirements: 
+[
+
+      silicon/6
+
+      lead/6
+
+    ]
+
+    time: 900
+
+  }
+
+]
+
+requirements: 
+[
+
+  copper/50
+
+  lead/120
+
+  silicon/80
+
+]
+
+category: units
+
+research: air-factory

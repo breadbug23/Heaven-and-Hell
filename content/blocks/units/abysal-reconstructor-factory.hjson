@@ -1,0 +1,45 @@
+{
+	
+name: Abysal Reconstructor
+type: Reconstructor
+
+	size: 5
+	consumes: {
+
+		power: 6
+		items: {
+
+			items: [
+
+				silicon/130
+				titanium/120
+				metaglass/40
+			]
+
+		}
+
+	}
+
+	requirements:
+ [
+		thorium/650
+
+		titanium/450
+
+		silicon/440
+
+		lead/800
+
+	]
+
+
+	constructTime: 1750
+
+upgrades: [
+
+		[rovone, orcus]
+
+	]
+	category: units
+	research: Decadent-reconstructor-factory
+}

@@ -1,0 +1,49 @@
+type: UnitType
+name: superbia
+armor: 8
+speed: 1.2
+accel: 0.06
+drag: 0.017
+hitSize: 30
+maxVelocity: 2
+flying: true
+rotateShooting: false
+health: 650
+range: 50
+engineColor: 84f491
+buildSpeed: 2
+mineTier: 4
+engineOffset: 12
+engineSize: 5
+weapons: 
+[{
+name: heal-weapon-mount
+reload: 25
+x: 6
+y: -8
+rotate: true
+bullet: healBulletBig
+}{
+name: heal-weapon-mount
+reload: 25
+x: 10
+y: -4
+rotate: true
+bullet: healBulletBig
+}{
+name: heal-weapon-mount
+reload: 25
+x: 6
+y: 4
+rotate: true
+bullet: healBulletBig
+}]
+research: {
+    parent: orcus
+    requirements:
+    [
+        {item: lead, amount: 20000},
+        {item: silicon, amount: 15000}
+		{item: plastanium, amount: 6000}
+    ]
+}

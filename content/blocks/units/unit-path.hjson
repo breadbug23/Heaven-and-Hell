@@ -1,0 +1,11 @@
+name: Unit path
+type: Wall
+requirements: [
+graphite/6
+]
+health: 300
+category: units
+research: graphitewall
+placeableLiquid: true
+solid: false
+

@@ -1,0 +1,15 @@
+name: surge conveyor
+type: StackConveyor
+requirements: 
+ [
+copper/1
+titanium/1
+silicon/1
+surge-alloy/1
+]
+health: 85
+speed: 0.1222
+itemCapacity: 20
+research: plastanium-conveyor
+category: distribution
+placeableLiquid: true
